@@ -41,3 +41,52 @@ p {
   align-items: center;
   height: 125px;
 }
+.navlinks {
+  display:flex;
+  justify-content:space-evenly;
+}
+.navlinks div {
+  margin-right: 30px;
+  border-bottom: 3px solid #54adb6; 
+  justify-content:space-between;
+  color: #54adb6;
+  font-size: 20px;
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 250px;
+  display:flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.Subheading {
+  display:flex;
+  background-color: #54adb6;
+  width: 400px;
+  text-align: right;
+  font-size: 30px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-section {
+  /* background-image: url("../images/02-portfolio-4.jpg"); */
+
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows:50% 50%;
+}
+
+.leftSidebar {
+  grid-area: leftSidebar;
+}
+
+.rightContent{
+  grid-area: rightContent;
+}
