@@ -45,7 +45,13 @@ a:visited {
   display: flex;			
   justify-content: space-evenly;			
 }			
-			
+
+.avatar{
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+		
 .navlinks div {			
   margin-right: 30px;			
   border-bottom: 3px solid #54adb6;			
